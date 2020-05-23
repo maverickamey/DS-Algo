@@ -1,6 +1,6 @@
 /*
-Author : Swanand Sapre
-scsapre@gmail.com
+Author : Amey Juvatkar
+ameyjuvatkar123@gmail.com
 
 */
 
@@ -89,7 +89,7 @@ else
 //Rotate a number || try in place rotation 
 int rotate(int number)
 {
-	int n=32;
+	int n=32;                                   //we can use size of int to make it portable 
  int r_number=0;
      while(n-1)
 	 {  if(number&1)
