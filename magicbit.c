@@ -126,7 +126,7 @@ int generate_mask(int q, int p ){
 	int mask=0;
  while (q)
  {
-	 mask=(mask | 1<<(p+q-1));
+	 mask=(mask | 1<<(p+q-1));       //    int mask=(~(~(0)<<q)<<p); efficient way of coding
 	 q=q-1;
 	 
  }
