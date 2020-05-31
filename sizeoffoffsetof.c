@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdio.h>
 #include <stdlib.h>
+//#define offsetof(s,m) (size_t)&(((s *)0)->m)    instead of offsetof
 #include <stddef.h>                      //offset is stored in this library and further as below syntax to find it
 typedef struct emp_ {                    //typedef data_type new_name
 char emp_name[30];
