@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 //Author:Amey Juvatkar
 
+=======
+>>>>>>> 208f56afbcf83a338c2e837bc6ea35c15fea95d2
 #include <stdio.h>
 //rotate and reverse array
 #include <stdlib.h>
