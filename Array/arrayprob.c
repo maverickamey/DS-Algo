@@ -206,7 +206,7 @@ for(int i=0;i<size;i++)
 	  sum=sum-a[i];
 	  
 	  if(left_sum==sum)
-		  return i;
+		  return i+1;
 	  else
 		 left_sum=left_sum+a[i];
    }
